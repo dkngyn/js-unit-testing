@@ -3,8 +3,15 @@ const LoginController = function() {
 		return userList.indexOf(user) >= 0;
 	};
 
+	isValidUserIdAsync = function (userList, user, callback) {
+		setTimeout(function() {
+			callback(userList.indexOf(user) >= 0);
+		}, 1);
+	};
+
 	return {
-		isValidUserId
+		isValidUserId,
+		isValidUserIdAsync
 	};
 };
 
