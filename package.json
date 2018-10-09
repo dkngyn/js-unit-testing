@@ -1,0 +1,24 @@
+{
+  "name": "js-unit-testing",
+  "version": "0.0.1",
+  "description": "javascript unit testing examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkbnguyen/js-unit-testing.git"
+  },
+  "author": "Dan Nguyen <dkbnguyen@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dkbnguyen/js-unit-testing/issues"
+  },
+  "homepage": "https://github.com/dkbnguyen/js-unit-testing#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {}
+}
