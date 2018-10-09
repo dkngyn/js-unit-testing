@@ -4,7 +4,8 @@
   "description": "javascript unit testing examples",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests/*.js",
+    "test:basic": "mocha tests/basic.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,5 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^5.2.0"
-  },
-  "dependencies": {}
+  }
 }
