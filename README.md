@@ -13,8 +13,8 @@ $ npm run test:function
 $ npm run test:async
 $ npm run test:hooks
 $ npm run test:expect
-$ npm run test:should
 $ npm run test:promise
+$ npm run test:assertion
 ```
 
 #####What is unit testing?

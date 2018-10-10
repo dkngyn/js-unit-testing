@@ -10,7 +10,8 @@
     "test:async": "mocha tests/async-callback.js",
     "test:hooks": "mocha tests/hooks.js",
     "test:expect": "mocha tests/expect.js",
-    "test:promise": "mocha tests/promise.js"
+    "test:promise": "mocha tests/promise.js",
+    "test:assertion": "mocha tests/assertion.js"
   },
   "repository": {
     "type": "git",
