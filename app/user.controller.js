@@ -15,10 +15,19 @@ const UserController = function () {
 		}, 1);
 	};
 
+	isAuthorizedPromise = function(user) {
+		return new Promise(function(resolve) {
+			setTimeout(function() {
+				resolve(userList.indexOf(user) >= 0);
+			}, 5);
+		});
+	};
+
 	return {
 		load,
 		isValidId,
-		isValidIdAsync
+		isValidIdAsync,
+		isAuthorizedPromise
 	};
 };
 
