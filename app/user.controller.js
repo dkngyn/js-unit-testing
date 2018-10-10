@@ -3,7 +3,7 @@ const UserController = function () {
 
 	load = function(users) {
 		userList = users;
-	}
+	};
 
 	isValidId = function(user) {
 		return userList.indexOf(user) >= 0;

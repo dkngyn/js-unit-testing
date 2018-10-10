@@ -8,7 +8,8 @@
     "test:basic": "mocha tests/basic.js",
     "test:function": "mocha tests/function.js",
     "test:async": "mocha tests/async-callback.js",
-    "test:hooks": "mocha tests/hooks.js"
+    "test:hooks": "mocha tests/hooks.js",
+    "test:expect": "mocha tests/expect.js"
   },
   "repository": {
     "type": "git",
